@@ -1,0 +1,90 @@
+/* App.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+/* Calculator styles */
+.calculator {
+  width: 300px;
+  margin: 50px auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Display styles */
+.display {
+  font-size: 24px;
+  text-align: right;
+  padding: 10px;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Row styles */
+#row {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Number styles */
+.number {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.number:hover {
+  background-color: #f0f0f0;
+}
+
+/* Operator styles */
+.plus,
+.minus,
+.asterik,
+.divide,
+.equalto,
+.delete {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #fff;
+  background-color: #f15b2a;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.operator:hover {
+  background-color: #da4720;
+}
+
+/* Delete button styles */
+.delete {
+  background-color: #aaa;
+  color: #fff;
+}
+
+.delete:hover {
+  background-color: #888;
+}
